@@ -1,20 +1,29 @@
 import type { Metadata } from "next"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { ProjectsGallery } from "@/components/projects-gallery"
+import { UnderConstruction } from "@/components/under-construction"
+// import { Header } from "@/components/header"
+// import { Footer } from "@/components/footer"
+// import { ProjectsGallery } from "@/components/projects-gallery"
 
 export const metadata: Metadata = {
-  title: "Our Projects | ExteriorPro - Before & After Gallery",
+  title: "Our Projects | Ascend Contractors - Before & After Gallery",
   description:
     "View our portfolio of completed exterior renovation projects. See dramatic before and after transformations including wall insulation, facade renovation, and waterproofing work.",
+  alternates: {
+    canonical: "https://ascendcontractors.com/projects",
+  },
 }
 
+export default function ProjectsPage() {
+  return <UnderConstruction />
+}
+
+/*
+// Original page content - uncomment when ready
 export default function ProjectsPage() {
   return (
     <>
       <Header />
       <main className="pt-20">
-        {/* Hero Section */}
         <section className="py-16 md:py-24 bg-muted">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl text-balance mb-6">
@@ -27,10 +36,8 @@ export default function ProjectsPage() {
           </div>
         </section>
 
-        {/* Projects Gallery */}
         <ProjectsGallery />
 
-        {/* CTA Section */}
         <section className="py-16 md:py-24 bg-primary">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl mb-6">
@@ -53,3 +60,4 @@ export default function ProjectsPage() {
     </>
   )
 }
+*/

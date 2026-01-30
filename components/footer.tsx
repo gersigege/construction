@@ -35,11 +35,21 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="text-2xl font-bold">
-              ExteriorPro
+              Ascend Contractors
             </Link>
             <p className="mt-4 text-sm text-background/70 max-w-xs">
-              Professional exterior renovation services for homeowners. Protecting and beautifying homes since 2009.
+              Serving homeowners with exterior renovation services including wall insulation, facade renovation, and waterproofing throughout the Chicago metropolitan area.
             </p>
+            <div className="mt-4 space-y-2 text-sm text-background/70">
+              <p>
+                <span className="font-medium text-background">Phone:</span>{" "}
+                <a href="tel:+1234567890" className="hover:text-background transition-colors">(123) 456-7890</a>
+              </p>
+              <p>
+                <span className="font-medium text-background">Email:</span>{" "}
+                <a href="mailto:info@ascendcontractors.com" className="hover:text-background transition-colors">info@ascendcontractors.com</a>
+              </p>
+            </div>
             <div className="mt-6 flex gap-4">
               {social.map((item) => (
                 <a
@@ -99,7 +109,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-background/10">
           <p className="text-sm text-background/60 text-center">
-            &copy; {new Date().getFullYear()} ExteriorPro. All rights reserved.
+            &copy; {new Date().getFullYear()} Ascend Contractors. All rights reserved.
           </p>
         </div>
       </div>

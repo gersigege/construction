@@ -19,7 +19,7 @@ export function About() {
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl">
               <Image
                 src="/images/team.jpg"
-                alt="ExteriorPro team"
+                alt="Ascend Contractors team"
                 fill
                 className="object-cover"
               />
@@ -43,7 +43,7 @@ export function About() {
 
             <div className="space-y-4 text-muted-foreground">
               <p>
-                ExteriorPro has been transforming homes across the region for over 15 years. 
+                Ascend Contractors has been transforming homes across the region for over 15 years. 
                 Our team of skilled craftsmen specializes in external wall insulation, facade 
                 renovation, and waterproofing solutions designed specifically for homeowners.
               </p>

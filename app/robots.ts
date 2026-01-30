@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://exteriorpro.com/sitemap.xml",
+    sitemap: "https://ascendcontractors.com/sitemap.xml",
   }
 }

@@ -1,12 +1,22 @@
 import type { Metadata } from "next"
-import { ServicePageLayout } from "@/components/service-page-layout"
+import { UnderConstruction } from "@/components/under-construction"
+// import { ServicePageLayout } from "@/components/service-page-layout"
 
 export const metadata: Metadata = {
-  title: "Facade Renovation Services | ExteriorPro",
+  title: "Facade Renovation Services | Ascend Contractors",
   description:
     "Expert facade renovation and rendering services for homeowners. Transform your home's appearance with professional plastering, crack repair, and decorative finishes.",
+  alternates: {
+    canonical: "https://ascendcontractors.com/services/facade-renovation",
+  },
 }
 
+export default function FacadeRenovationPage() {
+  return <UnderConstruction />
+}
+
+/*
+// Original page content - uncomment when ready
 export default function FacadeRenovationPage() {
   return (
     <ServicePageLayout
@@ -56,3 +66,4 @@ export default function FacadeRenovationPage() {
     />
   )
 }
+*/

@@ -1,16 +1,27 @@
 import type { Metadata } from "next"
-import Image from "next/image"
-import Link from "next/link"
-import { CheckCircle2, Users, Award, Clock, ShieldCheck } from "lucide-react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
+import { UnderConstruction } from "@/components/under-construction"
+// import Image from "next/image"
+// import Link from "next/link"
+// import { CheckCircle2, Users, Award, Clock, ShieldCheck } from "lucide-react"
+// import { Header } from "@/components/header"
+// import { Footer } from "@/components/footer"
+// import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "About Us | ExteriorPro - Trusted Exterior Renovation Experts",
+  title: "About Us | Ascend Contractors - Trusted Exterior Renovation Experts",
   description:
-    "Learn about ExteriorPro's 15+ years of experience in home exterior renovation. Our certified team delivers quality insulation, facade renovation, and waterproofing services.",
+    "Learn about Ascend Contractors' 15+ years of experience in home exterior renovation. Our certified team delivers quality insulation, facade renovation, and waterproofing services.",
+  alternates: {
+    canonical: "https://ascendcontractors.com/about",
+  },
 }
+
+export default function AboutPage() {
+  return <UnderConstruction />
+}
+
+/*
+// Original page content - uncomment when ready
 
 const values = [
   {
@@ -55,7 +66,6 @@ export default function AboutPage() {
     <>
       <Header />
       <main className="pt-20">
-        {/* Hero Section */}
         <section className="py-16 md:py-24 bg-muted">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -94,7 +104,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Our Values */}
         <section className="py-16 md:py-24 bg-background">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto mb-16">
@@ -121,7 +130,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Why Choose Us */}
         <section className="py-16 md:py-24 bg-muted">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -154,7 +162,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Stats */}
         <section className="py-16 md:py-24 bg-primary">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -178,7 +185,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* CTA */}
         <section className="py-16 md:py-24 bg-background">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-6">
@@ -203,3 +209,4 @@ export default function AboutPage() {
     </>
   )
 }
+*/

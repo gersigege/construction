@@ -1,12 +1,22 @@
 import type { Metadata } from "next"
-import { ServicePageLayout } from "@/components/service-page-layout"
+import { UnderConstruction } from "@/components/under-construction"
+// import { ServicePageLayout } from "@/components/service-page-layout"
 
 export const metadata: Metadata = {
-  title: "External Wall Insulation Services | ExteriorPro",
+  title: "External Wall Insulation Services | Ascend Contractors",
   description:
     "Professional external wall insulation for homeowners. Reduce energy bills by up to 40%, improve comfort, and increase property value with our expert EWI installation services.",
+  alternates: {
+    canonical: "https://ascendcontractors.com/services/external-wall-insulation",
+  },
 }
 
+export default function ExternalWallInsulationPage() {
+  return <UnderConstruction />
+}
+
+/*
+// Original page content - uncomment when ready
 export default function ExternalWallInsulationPage() {
   return (
     <ServicePageLayout
@@ -56,3 +66,4 @@ export default function ExternalWallInsulationPage() {
     />
   )
 }
+*/

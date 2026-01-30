@@ -7,7 +7,7 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'ExteriorPro - Professional External Wall Insulation & Facade Renovation',
+  title: 'Ascend Contractors - Professional External Wall Insulation & Facade Renovation',
   description: 'Expert home exterior renovation services including external wall insulation, facade renovation, waterproofing, and energy-efficient upgrades for homeowners.',
   generator: 'v0.app',
   icons: {

@@ -1,12 +1,22 @@
 import type { Metadata } from "next"
-import { ServicePageLayout } from "@/components/service-page-layout"
+import { UnderConstruction } from "@/components/under-construction"
+// import { ServicePageLayout } from "@/components/service-page-layout"
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing Services | ExteriorPro",
+  title: "Exterior Waterproofing Services | Ascend Contractors",
   description:
     "Professional exterior waterproofing for homeowners. Protect your home from moisture, damp, and weather damage with our expert waterproofing solutions.",
+  alternates: {
+    canonical: "https://ascendcontractors.com/services/waterproofing",
+  },
 }
 
+export default function WaterproofingPage() {
+  return <UnderConstruction />
+}
+
+/*
+// Original page content - uncomment when ready
 export default function WaterproofingPage() {
   return (
     <ServicePageLayout
@@ -56,3 +66,4 @@ export default function WaterproofingPage() {
     />
   )
 }
+*/

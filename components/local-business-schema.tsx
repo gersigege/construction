@@ -2,12 +2,12 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
-    name: "ExteriorPro",
+    name: "Ascend Contractors",
     description:
       "Professional home exterior renovation services including external wall insulation, facade renovation, and waterproofing for homeowners in the Chicago area.",
-    url: "https://exteriorpro.com",
+    url: "https://ascendcontractors.com",
     telephone: "+1-234-567-890",
-    email: "info@exteriorpro.com",
+    email: "info@ascendcontractors.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "123 Renovation Drive",
@@ -45,12 +45,12 @@ export function LocalBusinessSchema() {
       geoRadius: "50000",
     },
     priceRange: "$$",
-    image: "https://exteriorpro.com/images/hero-house.jpg",
+    image: "https://ascendcontractors.com/images/hero-house.jpg",
     sameAs: [
-      "https://facebook.com/exteriorpro",
-      "https://instagram.com/exteriorpro",
-      "https://twitter.com/exteriorpro",
-      "https://linkedin.com/company/exteriorpro",
+      "https://facebook.com/ascendcontractors",
+      "https://instagram.com/ascendcontractors",
+      "https://twitter.com/ascendcontractors",
+      "https://linkedin.com/company/ascendcontractors",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
